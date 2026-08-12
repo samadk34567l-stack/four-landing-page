@@ -298,9 +298,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-     padding: 60px;
+    max-width: 1440px;
+    margin: 0 auto;
     background: #f2f2f2;
     border-radius: 28px;
+    padding: 64px 96px;
     overflow: hidden;
     position: relative;
     font-family: 'Poppins', 'Segoe UI', sans-serif;
@@ -349,7 +351,7 @@ body {
 }
 
 .cta-image img {
-    max-width: 420px;
+    max-width: 100%;
     height: auto;
     display: block;
 }
