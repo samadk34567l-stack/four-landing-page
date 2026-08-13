@@ -968,57 +968,7 @@ img {
   position: relative;
 }
 
-/* Card Outer Wrapper */
-.testimonial-card,
-.testimonial-card-active {
-  flex: 0 0 600px; /* Card size */
-  display: flex;
-  flex-direction: column;
-}
 
-/* Speech Bubble Style Card */
-.testimonial-card > p,
-.testimonial-card-active > p {
-  position: relative;
-  border: 1px solid #b9ff66; /* Green border */
-  border-radius: 45px;
-  padding: 48px 52px;
-  font-size: 18px;
-  line-height: 1.6;
-  margin: 0 0 20px 0;
-  background-color: #191a23;
-}
-
-/* Speech Bubble Tail/Pointer (Green Triangle Outline) */
-.testimonial-card > p::after,
-.testimonial-card-active > p::after {
-  content: '';
-  position: absolute;
-  bottom: -20px;
-  left: 60px;
-  width: 20px;
-  height: 20px;
-  background-color: #191a23;
-  border-right: 1px solid #b9ff66;
-  border-bottom: 1px solid #b9ff66;
-  transform: rotate(45deg);
-}
-
-/* Author Details */
-.testimonial-author {
-  padding-left: 80px;
-}
-
-.testimonial-name {
-  color: #b9ff66; /* Green text */
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.author-role {
-  color: #ffffff;
-  font-size: 18px;
-}
     /* Contact Section */
     .contact-container {
         padding: 30px 20px;
